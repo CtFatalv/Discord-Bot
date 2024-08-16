@@ -1,4 +1,4 @@
-- Une fois le bot installer supprimer:
+- Une fois le bot installé supprimer:
 
 .npm
 package-lock.json
