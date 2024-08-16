@@ -1,30 +1,15 @@
 {
-  "name": "discord-bot",
-  "version": "1.0.0",
-  "description": "Bot de notre serveur Discord",
-  "main": "bot.js",
-  "dependencies": {
-    "discord.js": "^11.5.1",
-    "dotenv": "^8.0.0"
-  },
-  "devDependencies": {},
+  "name": "simple-discord-js-bot",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Utaria/discord-bot.git"
-  },
-  "keywords": [
-    "discord",
-    "discord-bot",
-    "bot"
-  ],
-  "author": "Utarwyn <maxime.malgorn@laposte.net>",
+  "author": "Morgan Breden @bredmor",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Utaria/discord-bot/issues"
-  },
-  "homepage": "https://github.com/Utaria/discord-bot#readme"
+  "dependencies": {
+    "discord.js": "^12.0.0",
+    "request": "^2.88.0"
+  }
 }
